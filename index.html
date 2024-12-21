@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rapor Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login Rapor Online</h1>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Login</button>
+    </form>
+    <div id="report" class="hidden">
+      <h2>Rapor</h2>
+      <p id="studentName"></p>
+      <ul id="subjects"></ul>
+      <button onclick="logout()">Logout</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
