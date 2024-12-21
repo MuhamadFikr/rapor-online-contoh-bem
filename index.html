@@ -17,10 +17,29 @@
       <input type="password" id="password" required>
       <button type="submit">Login</button>
     </form>
+
     <div id="report" class="hidden">
-      <h2>Rapor</h2>
+      <h2>Menu Rapor</h2>
       <p id="studentName"></p>
-      <ul id="subjects"></ul>
+      <button id="personalDataBtn">Lihat Data Diri</button>
+      <select id="quarterSelect">
+        <option value="q1">Triwulan 1</option>
+        <option value="q2">Triwulan 2</option>
+        <option value="q3">Triwulan 3</option>
+      </select>
+      <button id="viewReportBtn">Lihat Rapor</button>
+
+      <div id="personalData" class="hidden">
+        <h3>Data Diri</h3>
+        <p>Nama: <span id="studentFullName"></span></p>
+        <p>Kelas: <span id="studentClass"></span></p>
+      </div>
+
+      <div id="gradesReport" class="hidden">
+        <h3>Nilai Rapor</h3>
+        <ul id="subjects"></ul>
+      </div>
+
       <button onclick="logout()">Logout</button>
     </div>
   </div>
