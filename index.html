@@ -4,45 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rapor Online</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Portal Rapot BEM Fahutan 2025</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Login Rapor Online</h1>
-    <form id="loginForm">
-      <label for="username">Username:</label>
-      <input type="text" id="username" required>
-      <label for="password">Password:</label>
-      <input type="password" id="password" required>
-      <button type="submit">Login</button>
-    </form>
-
-    <div id="report" class="hidden">
-      <h2>Menu Rapor</h2>
-      <p id="studentName"></p>
-      <button id="personalDataBtn">Lihat Data Diri</button>
-      <select id="quarterSelect">
-        <option value="q1">Triwulan 1</option>
-        <option value="q2">Triwulan 2</option>
-        <option value="q3">Triwulan 3</option>
-      </select>
-      <button id="viewReportBtn">Lihat Rapor</button>
-
-      <div id="personalData" class="hidden">
-        <h3>Data Diri</h3>
-        <p>Nama: <span id="studentFullName"></span></p>
-        <p>Kelas: <span id="studentClass"></span></p>
-      </div>
-
-      <div id="gradesReport" class="hidden">
-        <h3>Nilai Rapor</h3>
-        <ul id="subjects"></ul>
-      </div>
-
-      <button onclick="logout()">Logout</button>
-    </div>
-  </div>
-  <script src="script.js"></script>
+  <header>
+    <h1>Portal Rapot BEM Fahutan 2025</h1>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Pilihan Triwulan</a></li>
+        <li><a href="profile.html">Profil Diri</a></li>
+        <li><a href="evaluasi-bem.html">Evaluasi BEM</a></li>
+        <li><a href="evaluasi-biro.html">Evaluasi Biro/Departemen</a></li>
+        <li><a href="admin.html">Menu Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Selamat Datang di Portal Rapot BEM Fahutan 2025</h2>
+    <p>Silakan pilih menu di atas untuk melanjutkan.</p>
+  </main>
 </body>
 </html>

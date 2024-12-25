@@ -1,1 +1,3 @@
-# rapor-online-contoh-bem
+# Database Directory
+
+Place SQLite or other database files here.
